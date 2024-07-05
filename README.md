@@ -17,6 +17,11 @@ Este documento fornece instruções sobre como clonar, instalar dependências e 
     ```bash
     git clone https://github.com/SAMUKISZHSD/teste-front-end-jr-econverse/tree/master
     ```
+4. Mude para brach Master:
+
+    ```bash
+    git checkout -m "master"
+    ```
 
 ## Instalar Dependências
 
@@ -33,7 +38,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 2. Instale as dependências:
 
     ```bash
-    npm install
+    yarn install
     ```
 
 ## Executar Localmente
@@ -41,7 +46,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Inicie o servidor:
 
     ```bash
-    npm run dev
+    yarn run dev
     ```
 
 2. Abra um navegador e acesse [http://localhost:5173](http://localhost:5173) (ou a porta especificada no seu projeto) para visualizar o resultado.
