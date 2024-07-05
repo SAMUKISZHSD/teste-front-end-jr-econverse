@@ -35,7 +35,7 @@ Desenvolvi o projeto utilizando React, Vite, Typescript e Scss. O projeto segue 
 
 Certifique-se de ter as seguintes ferramentas instaladas:
 
-- [Node.js](https://nodejs.org/) (inclui npm)
+- [Node.js](https://nodejs.org/)
 
 1. Navegue até o diretório do projeto:
 
