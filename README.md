@@ -53,4 +53,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
     ```
 
 2. Abra um navegador e acesse [http://localhost:5173](http://localhost:5173) (ou a porta especificada no seu projeto) para visualizar o resultado.
+   
+   ![image](https://github.com/SAMUKISZHSD/teste-front-end-jr-econverse/assets/117799926/3c33215f-84ff-4854-8b71-e17a174c1eaa)
+
 
