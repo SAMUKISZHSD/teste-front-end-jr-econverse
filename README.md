@@ -1,8 +1,10 @@
-# README
+# Teste Estágio Desenvolvedor
+
+Desenvolvi o projeto utilizando React, Vite, Typescript e Scss. O projeto segue o layout especificado nos requisitos do teste, criando um e-commerce com uma vitrine de produtos. Os dados dos produtos são consumidos a partir de um arquivo JSON. Quando o usuário clica em um produto, um modal é aberto com as principais informações desse produto, conforme o layout. Utilizei Hooks para gerenciar o estado, componentização para modularizar o código e Scss para estilização.
 
 Este documento fornece instruções sobre como clonar, instalar dependências e executar localmente o projeto.
 
-## Clonar o Projeto
+## Passos para Rodar o Projeto
 
 1. Abra o terminal ou prompt de comando no seu computador.
 
