@@ -1,0 +1,32 @@
+@use "../../style/variables";
+
+.title-container {
+  padding: 0 65px;
+  margin-bottom: 4px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-wrap: nowrap;
+  color: variables.$main-color;
+  font-weight: variables.$bold;
+  font-size: 30px;
+}
+
+.title-detailed::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  margin-right: 34px;
+  background-color: variables.$title-detail;
+}
+
+.title-detailed::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  margin-left: 34px;
+  background-color: variables.$title-detail;
+}

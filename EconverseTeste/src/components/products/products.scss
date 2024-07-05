@@ -1,0 +1,56 @@
+@use "../../style/variables";
+
+.products-categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border: 1px solid variables.$category-border;
+  justify-items: center;
+  text-transform: uppercase;
+
+  li {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    border-right: 1px solid variables.$category-border;
+    font-weight: variables.$regular;
+    color: variables.$font-gray-5;
+
+    &:first-child {
+      color: variables.$main-color;
+      font-weight: variables.$bold;
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.products-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.products-slider {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  overflow-x: scroll;
+  padding: 20px 20px 70px 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    appearance: none;
+    display: none;
+  }
+}
+
+.products-partners {
+  display: flex;
+  gap: 89px;
+  padding-bottom: 60px;
+}
