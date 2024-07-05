@@ -23,7 +23,7 @@ Desenvolvi o projeto utilizando React, Vite, Typescript e Scss. O projeto segue 
 3. Clone o repositório:
 
     ```bash
-    git clone https://github.com/SAMUKISZHSD/teste-front-end-jr-econverse/tree/master
+    git clone https://github.com/SAMUKISZHSD/teste-front-end-jr-econverse.git
     ```
 
 ## Instalar Dependências
