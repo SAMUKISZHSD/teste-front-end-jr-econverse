@@ -1,0 +1,40 @@
+@use "../../style/variables";
+@use "../../style/mixins";
+
+.linkCard {
+  background-image: url("../../assets/img/LinkCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+
+  > div {
+    @include mixins.fade-bg;
+  }
+
+  button {
+    @include mixins.button;
+    font-size: 16px;
+    font-weight: variables.$black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    margin-top: 32px;
+    letter-spacing: 2px;
+  }
+}
+
+.linkCard-content {
+  @include mixins.link-card;
+  padding-right: 350px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.linkCard-partners {
+  padding-top: 114px;
+}
+
+.linkCard-products {
+  padding-top: 48px;
+}
