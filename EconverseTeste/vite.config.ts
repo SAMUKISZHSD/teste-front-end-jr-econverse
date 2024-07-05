@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import svgr from 'vite-plugin-svgr'
 
+// solução do problema de CORS (Cross-Origin Resource Sharing) - Proxy
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {

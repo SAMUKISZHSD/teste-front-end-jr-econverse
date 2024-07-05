@@ -5,28 +5,34 @@ import { ProductType } from "../../typesJson";
 import Plus from "../../assets/icons/modal/plus.svg?react";
 import Minus from "../../assets/icons/modal/minus.svg?react";
 
+// Define o tipo ModalProps, que inclui os dados do modal e o setter para abrir/fechar o modal.
 type ModalProps = {
   modalData: ProductType;
   setIsModalOpen: Dispatch<SetStateAction<boolean>>;
 };
 
+// Define o componente Modal, que recebe as propriedades definidas em ModalProps.
 const Modal = ({ modalData, setIsModalOpen }: ModalProps) => {
+  // Extrai as propriedades do produto a partir do modalData.
   const { photo, productName, price, descriptionShort } = modalData;
 
+  // Define um estado local para controlar a quantidade do produto.
   const [count, setCount] = useState(1);
 
+  // Função para lidar com o clique dos botões de incrementar e decrementar.
   const handleClick = (type: string) => {
     switch (type) {
       case "plus":
-        setCount((prev) => prev + 1);
+        setCount((prev) => prev + 1); // Incrementa a quantidade.
         break;
       case "minus":
-        if (count === 0) return;
-        setCount((prev) => prev - 1);
+        if (count === 0) return; // Se a quantidade for 0, não faz nada.
+        setCount((prev) => prev - 1); // Decrementa a quantidade.
         break;
     }
   };
 
+  // Função auxiliar para formatar um valor numérico como moeda BRL (Real brasileiro).
   const formatCurrency = (value: number) => {
     return new Intl.NumberFormat("pt-BR", {
       style: "currency",

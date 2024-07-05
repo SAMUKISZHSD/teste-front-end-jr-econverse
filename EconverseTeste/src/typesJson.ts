@@ -1,12 +1,11 @@
-export interface ProductType {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-  category: string;
-}
-
-export interface APIResponse {
+export type APIResponse = {
   products: ProductType[];
-}
+  success: boolean;
+};
+
+export type ProductType = {
+  productName: string;
+  descriptionShort: string;
+  photo: string;
+  price: number;
+};
