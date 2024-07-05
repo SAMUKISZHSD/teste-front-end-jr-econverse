@@ -15,7 +15,7 @@ Este documento fornece instruções sobre como clonar, instalar dependências e 
 3. Clone o repositório:
 
     ```bash
-    git clone https://github.com/mateusdotjs/teste-front-end-jr.git
+    git clone https://github.com/SAMUKISZHSD/teste-front-end-jr-econverse/tree/master
     ```
 
 ## Instalar Dependências
@@ -27,7 +27,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. Navegue até o diretório do projeto:
 
     ```bash
-    cd teste-front-end-jr
+    cd EconverseTeste
     ```
 
 2. Instale as dependências:
